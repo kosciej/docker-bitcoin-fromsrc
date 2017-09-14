@@ -27,6 +27,7 @@ RUN cd /bitcoin/bitcoin-0.15.0 && make install
 
 ADD ./bin /usr/local/bin
 RUN chmod a+x /usr/local/bin/*
+RUN rm -rf /var/cache/apt/archives /bitcoin/bitcoin-* /bitcoin/*.tar.gz
 
 VOLUME ["/bitcoin"]
 EXPOSE 8332 8333
