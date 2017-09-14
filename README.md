@@ -5,10 +5,9 @@ from source so it'll take some time to build.
 
 The configuration options are the default ones with GUI and uPnP disabled.
 
-I used https://github.com/jamesob/docker-btc as base (that one uses binary Ubuntu packages
-instead of compiling the server). 
-
 This allows you to compile exactly the sources you want and update quickly to new versions.
+
+BTC donate address: 15nFeG58PKCG4RQQ5cDSZfH4dwdd3PSnKo
 
 ## Quick start
 
